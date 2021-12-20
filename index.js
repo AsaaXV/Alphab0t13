@@ -198,7 +198,7 @@ offline = false
 readGc = true 
 readPc = false 
 antitrol = false 
-bugc = false
+bugc = true
 autovn = false
 autoketik = false
 autoregister = setting.user_register
@@ -2354,12 +2354,12 @@ let bacotlu1 = media1.message["ephemeralMessage"] ? media1.message.ephemeralMess
 
 const buttons1 = [
   {buttonId: 'ownerku', buttonText: {displayText: '⋮☰ OWNER'}, type: 1},
-  {buttonId: 'statiktiknya', buttonText:{displayText: '✓ STATISTIC'}, type: 1},
-  {buttonId: 'Command', buttonText: {displayText: '❍ LIST MESSAGE'}, type: 1}
+  {buttonId: 'donasi', buttonText:{displayText: '✓ DONASI'}, type: 1},
+  {buttonId: 'Command', buttonText: {displayText: '❍ LIST MENU'}, type: 1}
 ]
 
 const btn1 = {
-    contentText: allmenu(kyun, os, prefix, wita, wit, ucapannya2, timuu, status, wa_version, mcc, mnc, os_version, device_manufacturer, device_model, alfa , alfa1, thisDay, ini_tanggal, totalchat, hit_today, ini_gcchat, latensii),
+    contentText: ini_anu,
     footerText: `${tampilTanggal}${enter}${tampilWaktu}${enter}${enter}Regard @${koko.split('@')[0]}`,
     buttons: buttons1,
     headerType: 6,
